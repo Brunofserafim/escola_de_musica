@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #395f79;
 }
 
 header,
@@ -12,26 +13,39 @@ form button {
     font-weight: normal;
 }
 
+header div,
+header h1,
+header a,
+header ul,
+header li {
+    background-color: #000000;
+}
+
+header
 body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 
 header {
     padding: 16px 0;
-    font-size: 48px;
-    background-color: #395f79;
+    font-size: 50px;
+    background-color: #000000;
     color: #ecf0f1;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 38px;
+    font-size: 45px;
 }
 
 header nav a {
     color: #ecf0f1; 
     text-decoration: none;
+}
+
+#about p {
+    margin-bottom: 4px;
 }
 
 .container {
@@ -59,7 +73,6 @@ section .container {
 }
 
 #about_courses h2,
-#about_teachers h2,
 .brands-list{
     max-width: 1280px;
     width: 100%;
@@ -76,16 +89,17 @@ section {
 
 section h2 {
     margin-bottom: 16px;
-    font-size: 54px;
+    font-size: 45px;
 }
 
 section {
-    color:#000000;
+    color:#ecf0f1;
     text-align: justify;
 }
 
 section p {
-    margin-bottom: 8px;
+    margin-bottom: 2px;
+    font-size: 22px;
 }
 
 .store-front {
@@ -93,9 +107,8 @@ section p {
 }
 
 .logo img{
-    height: 350px;
-    margin-left: 150px;
-    margin-top: 25px;
+    height: 250px;
+    margin-left: 170px;
 }
 
 .logo {
@@ -131,6 +144,7 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    background-color: #ecf0f1;
 }
 
 form textarea {
@@ -160,7 +174,11 @@ input:focus, textarea:focus {
 }
 
 footer {
-    background-color: #395f79;
+    background-color: #000000;
     color: #ecf0f1;
     padding: 16px 0;
+}
+
+footer p {
+    background-color: #000000;
 }
